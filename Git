@@ -1,0 +1,16 @@
+1. git init  ==> Initialise th folder as git repo	
+
+
+2. git add  <files/folder> ==> add the files to repo
+
+
+3. git commit  -m "purpose ur changes" ==> 
+
+
+4. git status
+
+
+5. git log
+
+
+6. git checkout <commit id> / branch
