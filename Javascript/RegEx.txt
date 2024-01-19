@@ -1,0 +1,35 @@
+.		-- Any Character except new line
+\w		-- Any normal Character
+\s		-- Space
+\d		-- Any digit
+\W		-- Non word character
+\S		-- Other than space
+\D		-- Anything other than digit
+
+
+[a-t]
+[apt]
+[0-9]
+
+		student1@gmail.com
+		student99@gmail.com
+		student@gmail.com
+
+
+
+?	==> 0 or 1 accurance
++	==> 1 or More accurances
+*	==> 0 or More accurances
+
+\
+
+.*
+
+()  ==> Group
+
+|	==> Or
+
+
+^	==> Starts with
+
+$	==> Ends with

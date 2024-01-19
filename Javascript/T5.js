@@ -54,6 +54,11 @@ let full_name3 = fn.concat(" ", ln, " is batsman")
 let data5 = `Lorem Ipsum is simply 50 Print dummy text of the PRINTing and typesetting industry print`
 
 let email_pattern = /\d+/gi
+
+let email_pattern = /([\s]?(\+\d+)?[\s\-]?(\d{10})\s)|(\s\d+\-\d+\-\d+)|(\s(\+\d{2})?\s\d+(\-\d+)?\-\d+)/gi
+
+
+
 let output5 = data5.match(email_pattern)
 
 console.log(output5)
