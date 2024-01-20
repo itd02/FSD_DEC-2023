@@ -23,7 +23,7 @@ let Something7
 //Something7 = ''
 //Something7 = null
 //Something7 = undefined
-Something7 =  10 != 20
+//Something7 =  10 == 20
 //Something7 =  false
 
 
