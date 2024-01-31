@@ -6,13 +6,35 @@
 	<title></title>
 </head>
 <body>
+	<div id='disp_product'>
 
-<script src="../Test/t2.js"></script>
-<script src="../Test/t3.js"></script>
+
+
+	</div>
+
+
+
+
+
+
+
+
 
 <script type="text/javascript">
+function displyProducts()
+{
+	let product_array = ['ipHone', 'Laptop', 'TV', 'Bike']
+	let disp_product = document.getElementById('disp_product')
+	for (let el of product_array)
+	{
+		disp_product.innerHTML += `
+		<h3 style='padding:50px;'> ${el} </h3>
+		`
+	}
+	return 100
+} 
 
-console.log("In html")
+displyProducts()
 
 </script>
 
