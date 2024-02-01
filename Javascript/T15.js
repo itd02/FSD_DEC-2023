@@ -20,3 +20,9 @@ cricketer.place2 = 'DLH'
 console.log(cricketer)
 
 console.log(cricketer1)
+
+Object.assign(cricketer, {first_name2: "Virat", last_name3:  "Kohli",})
+
+
+creciter3  = {...cricketer, {extra1:"", extra2:""}}
+
