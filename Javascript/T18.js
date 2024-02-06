@@ -1,12 +1,12 @@
-// let people = [18, 20, 30, 55, 100, 70, 65, 61, 88, 38, 34, 28, 24]
+let people = [18, 20, 30, 55, 100, 70, 65, 61, 88, 38, 34, 28, 24]
 
-// let checkAllAreVoters = people.every(el => el >= 18)
+let checkAllAreVoters = people.every(el => el >= 18)
 
-// console.log("This is every function's output ", checkAllAreVoters)
+console.log("This is every function's output ", checkAllAreVoters)
 
 
-// let checkAllSomeVoters = people.some(el => el < 18)
-// console.log("This is some function's output ", checkAllSomeVoters)
+let checkAllSomeVoters = people.some(el => el < 18)
+console.log("This is some function's output ", checkAllSomeVoters)
 
 
 // let x = Array()
@@ -157,13 +157,13 @@
 
 // Recursion
 
-function factorial(num)
-{
-		if (num == 1) return 1
-		return num * factorial(num-1)
-}
+// function factorial(num)
+// {
+// 		if (num == 1) return 1
+// 		return num * factorial(num-1)
+// }
 
-console.log(factorial(6))
+// console.log(factorial(6))
 
 
 
